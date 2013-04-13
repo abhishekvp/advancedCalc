@@ -1,0 +1,14 @@
+{
+  "name": "Advanced Calculator",
+  "description": "An Advanced Calculator Open Web Application",
+  "launch_path": "/",
+  "developer": {
+    "name": "Abhishek Potnis",
+    "url": "https://github.com/abhishekvp/advancedCalculator"
+  },
+  
+
+  "default_locale": "en"
+
+}
+

@@ -1,0 +1,88 @@
+<!doctype>
+<html manifest="owa.appcache">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="css/buttons.css">
+<link rel="stylesheet" type="text/css" href="css/input_areas.css">
+<link rel="stylesheet" type="text/css" href="css/transition.css">
+<script type="text/javascript" src="js/infixEval.js"></script>
+<script type="text/javascript" src="js/scientific.js"></script>
+<script type="text/javascript" src="js/ui.js"></script>
+</head>
+<body onload="init();">
+ <div id="container">
+  <div id="sci" class="panel">
+  <table>
+ <tr><td colspan=3><input id="stxtbx" type="text" autofocus></td></tr>
+ <tr>
+	<td>  <button id="sin" onclick="pressedS(this.id+'(');">sin</button></td>
+	<td>  <button id="cos" onclick="pressedS(this.id+'(');">cos</button></td>
+	<td>  <button id="tan" onclick="pressedS(this.id+'(');">tan</button></td>
+ </tr>
+ 
+ <tr>
+	<td>  <button id="ln" onclick="pressedS(this.id+'(');">ln</button></td>
+	<td>  <button id="log" onclick="pressedS(this.id+'(');">log</button></td>
+	<td>  <button id="!" onclick="pressedS(this.id);">!</button></td>
+ </tr>
+ 
+ <tr>
+	
+	<td>  <button id="e" onclick="pressedS(this.id);">e</button></td>
+	<td>  <button id="^" onclick="pressedS(this.id);">^</button></td>
+	<td>  <button id="pi" onclick="pressedS(this.id);">&pi;</button></td>
+</tr>
+  <tr>
+  <td><button onclick="slideS();">Basic</button></td>
+	<td> <button id="(" onclick="pressedS(this.id);">(</button></td>
+	<td>  <button id=")" onclick="pressedS(this.id);">)</button></td>
+	
+	
+</tr>
+ 
+ </table>
+ </div>
+ 
+ 
+   <div id="nor" class="panel">
+ <table>
+ <tr><td colspan=4><input type="text" id="txtbx" autofocus></td></tr>
+ <tr>
+	<td>  <button id="1" onclick="pressed(this.id);">1</button></td>
+	<td>  <button id="2" onclick="pressed(this.id);">2</button></td>
+	<td>  <button id="3" onclick="pressed(this.id);">3</button></td>
+	<td>  <button id="+" onclick="pressed(this.id);">+</button></td>
+ </tr>
+ 
+ <tr>
+	<td>  <button id="4" onclick="pressed(this.id);">4</button></td>
+	<td>  <button id="5" onclick="pressed(this.id);">5</button></td>
+	<td>  <button id="6" onclick="pressed(this.id);">6</button></td>
+	<td>  <button id="-" onclick="pressed(this.id);">-</button></td>
+ </tr>
+ 
+ <tr>
+	<td>  <button id="7" onclick="pressed(this.id);">7</button></td>
+	<td>  <button id="8" onclick="pressed(this.id);">8</button></td>
+	<td>  <button id="9" onclick="pressed(this.id);">9</button></td>
+	<td>  <button id="*" onclick="pressed(this.id);">*</button></td>
+</tr>
+ 
+ <tr>
+	<td>  <button id="C" onclick="clearText();">C</button></td>
+	<td>  <button id="0" onclick="pressed(this.id);">0</button></td>
+	<td>  <button id="." onclick="pressed(this.id);">.</button></td>
+	<td>  <button id="/" onclick="pressed(this.id);">/</button></td>
+</tr>
+<tr>
+<td> <button onclick="slideN();">Sci.</button></td>
+<td><button id="root(" onclick="pressedS(this.id);">&radic;</button> </td>
+<td><button id="=" onclick="backSpace();"><</button></td>
+<td><button id="=" onclick="calc();">=</button></td>
+</tr>
+ 
+ </table>
+ </div>
+</div>
+</body>
+</html>
