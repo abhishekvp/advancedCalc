@@ -2,6 +2,11 @@
   "name": "Advanced Calculator",
   "description": "An Advanced Calculator Open Web Application",
   "launch_path": "/advancedCalc/",
+  "icons": {
+  "16": "/advancedCalc/images/icons/16.png",
+  "48": "/advancedCalc/images/icons/48.png",
+  "128": "/advancedCalc/images/icons/128.png"
+},
   "developer": {
     "name": "Abhishek Potnis",
     "url": "https://github.com/abhishekvp/advancedCalculator"
