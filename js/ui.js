@@ -1,16 +1,4 @@
-function slideS() {
-    document.getElementById("sci").style.visibility = "hidden";
-    document.getElementById("nor").style.visibility = "visible";
-    document.getElementById("txtbx").value = document.getElementById("stxtbx").value;
-    window.location.hash = "nor";
-}
 
-function slideN() {
-    document.getElementById("nor").style.visibility = "hidden";
-    document.getElementById("sci").style.visibility = "visible";
-    document.getElementById("stxtbx").value = document.getElementById("txtbx").value;
-    window.location.hash = "sci";
-}
 
 function pressed(key) {
     document.getElementById("txtbx").value = document.getElementById("txtbx").value + key;
@@ -18,11 +6,10 @@ function pressed(key) {
 
 function pressedS(key) {
     updateFlags(key);
-    window.location.hash = 'nor';
-    document.getElementById("sci").style.visibility = "hidden";
-    document.getElementById("nor").style.visibility = "visible";
-    document.getElementById("txtbx").value = document.getElementById("txtbx").value + key;
-
+    document.getElementById("stxtbx").value = document.getElementById("stxtbx").value + key;
+	document.getElementById("txtbx").value = document.getElementById("stxtbx").value
+	document.getElementById("sci").style.display = "none";
+	document.getElementById("nor").style.display = "inline";
 }
 
 
@@ -40,14 +27,12 @@ function backSpace() {
 
 
 
-function init() {
-    document.getElementById("txtbx").disabled = true;
-    document.getElementById("stxtbx").disabled = true;
-    flushFlags();
-    window.location.hash = 'nor';
-}
+
 
 function clearText() {
+    document.getElementById("txtbx").disabled = true;
+    document.getElementById("stxtbx").disabled = true;
     document.getElementById('txtbx').value = '';
+	document.getElementById('stxtbx').value = '';
     flushFlags();
 }
