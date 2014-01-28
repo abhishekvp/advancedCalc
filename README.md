@@ -11,3 +11,5 @@ The Application makes use of Appcache for offline storage, and so it can run eve
 
 The Application adjusts itself according to the screen size of the device and hence can run on Mobiles, 
 Tablets as well as Desktops.
+
+CalC can be installed from the Mozilla Marketplace : https://marketplace.firefox.com/app/myCalc
