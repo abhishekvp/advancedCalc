@@ -1,14 +1,18 @@
 {
-  "name": "Advanced Calculator",
-  "description": "An Advanced Calculator Open Web Application",
-  "launch_path": "/",
+  "name": "CalC",
+  "description": "A simple and easy to use Calculator",
+  "launch_path": "/CalC/",
+  "icons": {
+  "16": "/CalC/images/icons/16.png",
+  "48": "/CalC/images/icons/48.png",
+  "128": "/CalC/images/icons/128.png"
+},
   "developer": {
     "name": "Abhishek Potnis",
-    "url": "https://github.com/abhishekvp/advancedCalculator"
+    "url": "https://github.com/abhishekvp/CalC"
   },
   
 
   "default_locale": "en"
 
 }
-
