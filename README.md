@@ -1,7 +1,7 @@
-advancedCalc
+CalC
 ============
 
-Advanced Calc is an Open Web Application.
+CalC is a simple and easy to use Calculator Open Web Application.
 
 The Calculator has Basic functions as well as the Scientific functions.
 
