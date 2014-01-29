@@ -10,7 +10,7 @@ The Application is fully responsive i.e it adjusts itself according to the scree
 
 Usage: The initial panel of the Calculator has Basic functions. For Advanced/Scientific Panel, click on "Sci." Button.
 
-CalC can be installed on your device from the Mozilla Marketplace : https://marketplace.firefox.com/app/myCalc
+CalC can be installed on your device from the Mozilla Marketplace : https://marketplace.firefox.com/app/myCalc            
 Pre-requisite : Mozilla Firefox or any other build of Firefox - Nightly, Aurora, Beta must installed on your device.
 
 OR
